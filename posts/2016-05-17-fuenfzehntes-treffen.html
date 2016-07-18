@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Programm für das fünfzehnte Treffen am 16. Juni 2016 :: Curry Club Augsburg</title>
+    <link rel="stylesheet" type="text/css" href="../css/default.css" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="alternate" type="application/atom+xml" href="../atom.xml" />
+    <link rel="alternate" type="application/rss+xml" href="../rss.xml" />
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="main">
+        <header>
+          <div id="logo">
+            <a href="../">
+              <img src="../images/logo-dunkler-hintergrund.svg" alt="Curry Club Augsburg" />
+            </a>
+          </div>
+          <blockquote>
+            <p>Das wird heiß</p>
+            <footer>
+              &mdash; <cite class="author">Makarius</cite>
+            </footer>
+          </blockquote>
+          <div class="clear"></div>
+        </header>
+
+        <main id="content">
+          <article>
+  <header>
+    <h1>Programm für das fünfzehnte Treffen am 16. Juni 2016</h1>
+    <div class="info">
+      Gepostet am 17. Mai 16
+      
+          von Ingo Blechschmidt
+      
+    </div>
+    
+    
+  </header>
+
+  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/wSaGjm4qqNc?list=PLwpepnYDFK9NTzNM7VTw2OoDuhKtWS6KB" frameborder="0" allowfullscreen>
+</iframe>
+<p>Ingo stellte <a href="../files/initiale-algebren.pdf">Minimalwissen zu initialen Algebren und terminalen Koalgebren</a> bereit. Diese verwendet man (unter anderem), um Datentypen mathematisch zu modellieren. In Form von Cata- und Anamorphismen haben sie aber auch eine ganz praktische Bedeutung in der Abstraktion von bekannten Rekursionsmustern.</p>
+<p>Initiale Algebren und terminale Koalgebren untersucht man deswegen, weil sie einen geeigneten Rahmen geben, um Fixpunktgleichungen für <em>Strukturen</em> (statt <em>Zahlen</em> oder <em>Elemente</em> von Datentypen) zu verstehen.</p>
+<p>Zum Beispiel ist die Struktur der natürlichen Zahlen eine Lösung von folgender Fixpunktgleichung:</p>
+<pre><code>N = 1 + N
+-- mit der rechten Seite ist gemeint: {*} disjunkt-vereinigt-mit N
+-- in Haskell würde man schreiben: data N = Zero | Succ N</code></pre>
+<p>Die Struktur der endlichen Listen mit Einträgen aus A ist eine Lösung von</p>
+<pre><code>L = 1 + A x L.
+-- in Haskell: data L = Nil | Cons A L</code></pre>
+<p>Nun sind das aber nicht wirklich Gleichungen. Es sind aber auch nicht einfach nur “Isomorphiebeziehungen”. Es ist etwas dazwischen – es sind initiale Algebren. Jede initiale Algebra bringt jeweils ein eigenes Konzept mit, um Funktionen aus der so definierten Struktur rekursiv definieren zu können. Im Falle der natürlichen Zahlen ist das im Wesentlichen das bekannte Rekursionsprinzip (definiere für 0 und definiere für n+1).</p>
+<p>Der Vortrag erklärte, was initiale Algebren sind, welche Vorstellung sie fassen und wozu man sie in der Informatik verwendet. Das Thema ist für manche Teile der theoretischen Informatik absolut grundlegend, man kann kaum über die Semantik von Programmiersprachen (welche benutzerdefinierte Datentypen erlauben) sprechen, ohne Minimalwissen von initialen Algebren zu haben. Auch für den praktischen Umgang mit Rekursion sind sie interessant, da sie manche Dinge mit einer konzeptionellen, abstrakten Interpretation versehen.</p>
+<p>Wir gingen auch auf das Gegenstück zu initialen Algebren ein, nämlich terminale Koalgebren. Und es gab einen “witzigen” Wettbewerb.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/CeJoWI7maMU?list=PLwpepnYDFK9NTzNM7VTw2OoDuhKtWS6KB" frameborder="0" allowfullscreen>
+</iframe>
+<p>Tim stellt seine WIP-Haskell-Bibliothek <a href="https://github.com/timjb/ftypes">ftypes</a> vor. In FTypes werden die bekannten Typklassen <code>Functor</code>, <code>Applicative</code> und <code>Traversable</code> auf Typen vom Kind <code>(k -&gt; *) -&gt; *</code> übertragen. Dies hat Anwendungen etwa beim Schreiben von bidirektionalen Parsern für Produkttypen.</p>
+<p>Tim hat vergessen, ein paar Sachen zu erwähnen, die er sich eigentlich vorgenommen hatte. Darum hat er sie <a href="https://gist.github.com/timjb/275f78e9dd449671c4b76dbdbeec574c">hier aufgeschrieben</a>.</p>
+</article>
+
+        </main>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Mit viel <b>&lambda;</b> und mit Hilfe von <a href="http://jaspervdj.be/hakyll">Hakyll</a> erstellt.
+      Schau dir den <a href="https://github.com/curry-club-aux/curry-club-augsburg.de">Quellcode</a> an und verbessere ihn!<br />
+      Sofern nicht anders angegeben, stehen Design, Bilder, Webseite und Texte unter <a href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a> und Codeschnipsel unter <a href="https://opensource.org/licenses/MIT">MIT-Lizenz</a>.<br />
+      Q: Warum sind alle Formulierungen auf der Website weiblich? A: Weil wir's können.
+    </footer>
+  </body>
+</html>

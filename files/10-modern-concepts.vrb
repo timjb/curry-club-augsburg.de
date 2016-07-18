@@ -1,0 +1,15 @@
+\begin{center}
+    \vspace*{-1em}\Huge\hil{Units of Measure Types \smiley}
+  \end{center}
+  \begin{minted}[fontsize=\small]{fsharp}
+[<measure>] type N = (kg * m) / sec^2
+
+fireThrusters (x:float<N * sec>) = ...
+
+let duration = 2<sec>
+let force = 1000<N>
+fireThrusters (duration * force)
+
+let diag (x:float<'u>) (y:float<'u>)
+      = sqrt (x*x + y*y) // Pythagoras
+  \end{minted}

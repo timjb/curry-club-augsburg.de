@@ -8,14 +8,362 @@
         <name>Curry Club Augsburg</name>
         <email>post@curry-club-augsburg.de</email>
     </author>
-    <updated>2015-03-17T00:00:00Z</updated>
+    <updated>2016-06-29T00:00:00Z</updated>
     <entry>
-    <title>Hallo Welt!</title>
-    <link href="http://curry-club-augsburg.de/posts/2015-03-17-hallo-welt.html" />
-    <id>http://curry-club-augsburg.de/posts/2015-03-17-hallo-welt.html</id>
-    <published>2015-03-17T00:00:00Z</published>
-    <updated>2015-03-17T00:00:00Z</updated>
-    <summary type="html"><![CDATA[Erster Post.]]></summary>
+    <title>Programm für das siebzehnte Treffen am 11. August 2016</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-06-29-siebzehntes-treffen.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-06-29-siebzehntes-treffen.html</id>
+    <published>2016-06-29T00:00:00Z</published>
+    <updated>2016-06-29T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Programm für das siebzehnte Treffen am 11. August 2016</h1>
+    <div class="info">
+      Gepostet am 29. Jun 16
+      
+          von Ingo Blechschmidt
+      
+    </div>
+    
+    
+  </header>
+
+  <p>Profpatsch teilt seine Beobachtung mit, dass <a href="https://www.st.cs.uni-saarland.de/edu/seminare/2005/advanced-fp/docs/huet-zipper.pdf">Zipper</a> zu den coolsten Datenstrukturen gehören, und wird damit die Reihe über funktionale Datenstrukturen fortsetzen.</p>
+<p>Tim wird einen Vortrag zu Versionskontrollsystemen und Patch-Theorie halten. Er wird darin die unterschiedlichen Modelle von git, darcs und insbesondere dem neuen Versionskontrollsystem <a href="http://pijul.org/">Pijul</a> vorstellen. Letzteres VCS basiert auf (oder ist laut Webseite “inspiriert von”) einer kategorientheoretischen <a href="http://www.lix.polytechnique.fr/Labo/Samuel.Mimram/docs/mimram_ctp.pdf">Theorie von</a> <a href="http://www.lix.polytechnique.fr/Labo/Samuel.Mimram/docs/mimram_ctp_slides.pdf">Patches</a> von Samuel Mimram und Cinzia Di Giusto.</p>
+<p>[Kurze Werbepause: Das Paper ist richtig cool! Die Autoren gehen von der Kategorie der “normalen”, linearen Dokumente aus und wollen dann “mergen” als Pushout modellieren. Damit Patches immer gemergt werden können, sollte die Kategorie endlich kovollständig sein, damit alle Pushouts existieren. Deshalb gehen die Autoren zur freien konservativen (schon existierende Kolimiten bleiben erhalten) Kovervollständigung der Kategorie der linearen Dokumente über. Diese Kovervollständigung man nach einem Folklore-Theorem explizit als volle Unterkategorie der Kategorie der Prägarben auf der Kategorie der linearen Dokumente beschreiben. Im Hauptteil des Papers leiten die Autoren eine viel konkretere, graphentheoretische Beschreibung dieser Kategorie her.]</p>
+<p>uwap wird Idris als “general purpose”-Sprache vorstellen, in der man abhängige Typen praktisch verwenden kann.</p>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Programm für das achtzehnte Treffen am 8. September 2016</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-06-29-achtzehntes-treffen.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-06-29-achtzehntes-treffen.html</id>
+    <published>2016-06-29T00:00:00Z</published>
+    <updated>2016-06-29T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Programm für das achtzehnte Treffen am 8. September 2016</h1>
+    <div class="info">
+      Gepostet am 29. Jun 16
+      
+          von Ingo Blechschmidt
+      
+    </div>
+    
+    
+  </header>
+
+  <p>Marc wird voraussichtlich über <em>Hygienische Makros: Praxis, Theorie und Implementierung am Beispiel von Scheme</em> sprechen.</p>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Programm für das sechzehnte Treffen am 14. Juli 2016</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-06-15-sechzehntes-treffen.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-06-15-sechzehntes-treffen.html</id>
+    <published>2016-06-15T00:00:00Z</published>
+    <updated>2016-06-15T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Programm für das sechzehnte Treffen am 14. Juli 2016</h1>
+    <div class="info">
+      Gepostet am 15. Jun 16
+      
+          von Matthias Hutzler
+      
+    </div>
+    
+    
+  </header>
+
+  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/tfEQzR9-hlQ?list=PLwpepnYDFK9Mtt1iy8zRVjNLVV50dDgiO" frameborder="0" allowfullscreen>
+</iframe>
+<p>Makarius stellte <a href="http://www.flatmap.net/cobra">Cobra</a> vor, ein modernes Framework, um Code und Beweise zu präsentieren. Cobra unterstützt Isabelle-Beweise sowie Scala- und Haskell-Code.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/CratUcZGFuI?list=PLwpepnYDFK9Mtt1iy8zRVjNLVV50dDgiO" frameborder="0" allowfullscreen>
+</iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/m6k-ag8o0rI?list=PLwpepnYDFK9Mtt1iy8zRVjNLVV50dDgiO" frameborder="0" allowfullscreen>
+</iframe>
+<p>Ingo begann unter dem Titel <em>Was sind und was sollen die Typen?</em> eine Einführung in Typtheorie unter besonderer Beachtung von Homotopietyptheorie. Die grundlegende Motivation aus der Informatik und der Programmierpraxis sind natürlich bekannt: Man möchte zur Compilezeit Informationen über das Programmverhalten gewinnen, um fehlerhafte Programme noch vor ihrer Ausführung erkennen und ablehnen zu können.</p>
+<p>Aber es ist vielleicht weniger bekannt, wie Typtheorie entstanden ist (das war nämlich lange vor den Programmiersprachen), welches Problem sie ursprünglich lösen sollte (und auch tatsächlich löst), und wie ein Typsystem aufgebaut ist.</p>
+<p>Ziel des ersten Teils war, ein Grundverständnis im Lesen von Typsystemspezifikationen zu vermitteln. Es wurde extensionale und intensionale Martin-Löf-Typtheorie behandelt.</p>
+<p>Homotopietyptheorie ist ein neuer Zweig der Mathematik, der Aspekte von verschiedenen anderen Teilgebieten der Mathematik auf verblüffende Art und Weise kombiniert. Es ist Teil von Voevoedskys Programm zu einer <em>univalenten Grundlegung</em> der Mathematik und basiert auf einer kürzlich entdeckten Verbindung zwischen Homotopietheorie aus der Mathematik und Typtheorie aus der Logik und theoretischen Informatik.</p>
+<p>In gewöhnlichen Zugängen zu einer Grundlegung der Mathematik unterscheidet man zwischen Objekten (wie zum Beispiel natürlichen Zahlen und Mengen) und Aussagen über diese Objekte. In Homotopietyptheorie gibt es diese Unterscheidung nicht. Objekte und Aussagen über Objekte werden auf eine gemeinsame Stufe gestellt. Beweisen und Konstruieren werden miteinander identifiziert.</p>
+<p>Der Vortrag setzt keine Vorkenntnisse aus Logik und Typtheorie und selbstverständlich auch keine aus Homotopietheorie voraus. Der Vortrag ist für Leute konzipiert, die sich für diese neue Bewegung in der Logik interessieren, aber nicht praktizierende Mathematikerinnen sind.</p>
+<p>Er klärt folgende Fragen: Was hat es mit Homotopietyptheorie auf sich? Wie werden in Homotopietyptheorie Objekte und Aussagen miteinander vereint, auf eine Stufe gestellt? Wozu ist Homotopietyptheorie gut? Wieso und für wen ist sie interessant?</p>
+<p>Ein Teil der Antwort auf die letzte Frage lautet: Homotopietyptheorie ist für Leute interessant, die computergestützt Beweise führen möchten.</p>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Programm für das fünfzehnte Treffen am 16. Juni 2016</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-05-17-fuenfzehntes-treffen.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-05-17-fuenfzehntes-treffen.html</id>
+    <published>2016-05-17T00:00:00Z</published>
+    <updated>2016-05-17T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Programm für das fünfzehnte Treffen am 16. Juni 2016</h1>
+    <div class="info">
+      Gepostet am 17. Mai 16
+      
+          von Ingo Blechschmidt
+      
+    </div>
+    
+    
+  </header>
+
+  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/wSaGjm4qqNc?list=PLwpepnYDFK9NTzNM7VTw2OoDuhKtWS6KB" frameborder="0" allowfullscreen>
+</iframe>
+<p>Ingo stellte <a href="/files/initiale-algebren.pdf">Minimalwissen zu initialen Algebren und terminalen Koalgebren</a> bereit. Diese verwendet man (unter anderem), um Datentypen mathematisch zu modellieren. In Form von Cata- und Anamorphismen haben sie aber auch eine ganz praktische Bedeutung in der Abstraktion von bekannten Rekursionsmustern.</p>
+<p>Initiale Algebren und terminale Koalgebren untersucht man deswegen, weil sie einen geeigneten Rahmen geben, um Fixpunktgleichungen für <em>Strukturen</em> (statt <em>Zahlen</em> oder <em>Elemente</em> von Datentypen) zu verstehen.</p>
+<p>Zum Beispiel ist die Struktur der natürlichen Zahlen eine Lösung von folgender Fixpunktgleichung:</p>
+<pre><code>N = 1 + N
+-- mit der rechten Seite ist gemeint: {*} disjunkt-vereinigt-mit N
+-- in Haskell würde man schreiben: data N = Zero | Succ N</code></pre>
+<p>Die Struktur der endlichen Listen mit Einträgen aus A ist eine Lösung von</p>
+<pre><code>L = 1 + A x L.
+-- in Haskell: data L = Nil | Cons A L</code></pre>
+<p>Nun sind das aber nicht wirklich Gleichungen. Es sind aber auch nicht einfach nur “Isomorphiebeziehungen”. Es ist etwas dazwischen – es sind initiale Algebren. Jede initiale Algebra bringt jeweils ein eigenes Konzept mit, um Funktionen aus der so definierten Struktur rekursiv definieren zu können. Im Falle der natürlichen Zahlen ist das im Wesentlichen das bekannte Rekursionsprinzip (definiere für 0 und definiere für n+1).</p>
+<p>Der Vortrag erklärte, was initiale Algebren sind, welche Vorstellung sie fassen und wozu man sie in der Informatik verwendet. Das Thema ist für manche Teile der theoretischen Informatik absolut grundlegend, man kann kaum über die Semantik von Programmiersprachen (welche benutzerdefinierte Datentypen erlauben) sprechen, ohne Minimalwissen von initialen Algebren zu haben. Auch für den praktischen Umgang mit Rekursion sind sie interessant, da sie manche Dinge mit einer konzeptionellen, abstrakten Interpretation versehen.</p>
+<p>Wir gingen auch auf das Gegenstück zu initialen Algebren ein, nämlich terminale Koalgebren. Und es gab einen “witzigen” Wettbewerb.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/CeJoWI7maMU?list=PLwpepnYDFK9NTzNM7VTw2OoDuhKtWS6KB" frameborder="0" allowfullscreen>
+</iframe>
+<p>Tim stellt seine WIP-Haskell-Bibliothek <a href="https://github.com/timjb/ftypes">ftypes</a> vor. In FTypes werden die bekannten Typklassen <code>Functor</code>, <code>Applicative</code> und <code>Traversable</code> auf Typen vom Kind <code>(k -&gt; *) -&gt; *</code> übertragen. Dies hat Anwendungen etwa beim Schreiben von bidirektionalen Parsern für Produkttypen.</p>
+<p>Tim hat vergessen, ein paar Sachen zu erwähnen, die er sich eigentlich vorgenommen hatte. Darum hat er sie <a href="https://gist.github.com/timjb/275f78e9dd449671c4b76dbdbeec574c">hier aufgeschrieben</a>.</p>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Programm für das vierzehnte Treffen am 19. Mai 2016</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-04-24-vierzehntes-treffen.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-04-24-vierzehntes-treffen.html</id>
+    <published>2016-04-24T00:00:00Z</published>
+    <updated>2016-04-24T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Programm für das vierzehnte Treffen am 19. Mai 2016</h1>
+    <div class="info">
+      Gepostet am 24. Apr 16
+      
+          von Ingo Blechschmidt
+      
+    </div>
+    
+    
+  </header>
+
+  <p><a href="https://github.com/mnieper">Marc</a> setzte die Reihe über <em>rein funktionale Datenstrukturen</em> (begonnen durch <a href="/posts/2015-12-04-zehntes-treffen.html">Tims Vortrag zu Warteschlangen</a> mit einem Vortrag über <a href="https://de.wikipedia.org/wiki/Rot-Schwarz-Baum">Rot-Schwarz-Bäume</a> in Scheme fort.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/JOiURKrhnSo" frameborder="0" allowfullscreen>
+</iframe>
+<p>Die während des Vortrags erstellte Scheme-Implementierung <a href="https://gitlab.com/nieper/immutable-maps">steht auf GitLab</a>.</p>
+<p>Außerdem setzte Makarius die Reihe <em>Schönheit und Kunst</em> mit weiterer Arbeit in Isabelle fort: Er löste Aufgabe 12 der <a href="https://github.com/curry-club-aux/haskell-workshop/raw/gh-pages/uebung.pdf">beiden</a> <a href="https://github.com/curry-club-aux/haskell-workshop/raw/gh-pages/uebung2.pdf">Workshops</a> (Run-Length-Encoding), und zwar erstens “diesmal wirklich” und zweitens absolut vollständig. Damit ist natürlich gemeint, dass er die Korrektheit seiner Lösung in Isabelle bewies. Außerdem stellte er einen Geschwindigkeitsrekord für die Implementierung der Übungsaufgabe in mehreren Programmiersprachen auf.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/pNp6zwj-sTs?list=PLwpepnYDFK9MlOdZaWfhnRVt5PHGasrFr" frameborder="0" allowfullscreen>
+</iframe>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Programm für das dreizehnte Treffen am 21. April 2016</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-03-19-dreizehntes-treffen.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-03-19-dreizehntes-treffen.html</id>
+    <published>2016-03-19T00:00:00Z</published>
+    <updated>2016-03-19T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Programm für das dreizehnte Treffen am 21. April 2016</h1>
+    <div class="info">
+      Gepostet am 19. Mär 16
+      
+          von Ingo Blechschmidt
+      
+    </div>
+    
+    
+  </header>
+
+  <p>Sternenseemann und Lars stellten <strong>diesmal wirklich</strong> generische Programmierung jeweils in Haskell mit <a href="https://hackage.haskell.org/package/base-4.8.2.0/docs/GHC-Generics.html">GHC.Generics</a> und in Scala mit <a href="https://github.com/milessabin/shapeless">shapeless</a> vor.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Zj4P7FoHef0" frameborder="0" allowfullscreen>
+</iframe>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Egmf1hKxhmg" frameborder="0" allowfullscreen>
+</iframe>
+<p>Profpatsch zeigte, wie man mit Haskell und Nix „Shellskripte“ schreiben kann.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/mVrhYneg2Kk" frameborder="0" allowfullscreen>
+</iframe>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Yolomorphismus</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-02-27-yolomorphismus.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-02-27-yolomorphismus.html</id>
+    <published>2016-02-27T00:00:00Z</published>
+    <updated>2016-02-27T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Yolomorphismus</h1>
+    <div class="info">
+      Gepostet am 27. Feb 16
+      
+          von Profpatsch
+      
+    </div>
+    
+    <img src="/images/yolo-cat.jpg" alt="Yolo-Katze" />
+    
+    
+  </header>
+
+  <p>Im Zuge unserer Unterhaltungen sind wir auf die Begrifflichkeit des „Yolomorphismus“ gekommen, welche Lars folgendermaßen definiert:</p>
+<dl>
+<dt>
+<dfn>Yolomorphisums</dfn>, n.
+</dt>
+<dd>
+partielle, nicht-injektive Funktion
+</dd>
+</dl>
+<p>Beispiele sind die allseits gefürchteten <code>head</code> und <code>tail</code>, sowie <code>(!!)</code>.</p>
+<p>Ingo ergänzte um Beispiele im weiteren Sinn (YOLO ernst genommen):</p>
+<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="ot">unsafePerformIO ::</span> <span class="dt">IO</span> a <span class="ot">-&gt;</span> a
+
+<span class="ot">unsafeCoerce ::</span> a <span class="ot">-&gt;</span> b  <span class="co">-- mehr YOLO geht nicht</span></code></pre></div>
+<p>Lukas merkte noch an, dass man das alles wunderbar in ein Language-Feature umwandeln kann:</p>
+<div class="sourceCode"><pre class="sourceCode haskell"><code class="sourceCode haskell"><span class="kw">module</span> <span class="dt">Yolomorphism</span> <span class="kw">where</span>
+
+<span class="fu">--|</span> <span class="dt">Yolomorphism</span> typeclass
+<span class="kw">class</span> <span class="dt">Yolomorphable</span> a <span class="kw">where</span>
+  <span class="fu">--|</span> because <span class="dt">YOLO</span>
+<span class="ot">  yoloPerformIO ::</span> <span class="dt">IO</span> a <span class="ot">-&gt;</span> a
+  <span class="fu">--|</span> because even more <span class="dt">YOLO</span>
+<span class="ot">  yoloCoerce    ::</span> a <span class="ot">-&gt;</span> b</code></pre></div>
+<p>Wir sollten das mal dem Haskell’-Team zur Einführung in die <code>base</code>-Library vorschlagen.</p>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Programm für das zwölfte Treffen am 17. März 2016</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-02-26-zwoelftes-treffen.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-02-26-zwoelftes-treffen.html</id>
+    <published>2016-02-26T00:00:00Z</published>
+    <updated>2016-02-26T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Programm für das zwölfte Treffen am 17. März 2016</h1>
+    <div class="info">
+      Gepostet am 26. Feb 16
+      
+          von Ingo Blechschmidt
+      
+    </div>
+    
+    
+  </header>
+
+  <p>Cornelius setzte seinen Vortrag über <em>Verified Firewall Ruleset Analysis</em> fort.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/EpotR359Oto" frameborder="0" allowfullscreen>
+</iframe>
+<p>Makarius gab (diesmal wirklich) eine Einführung in <em>Programme und Beweise in Isabelle/HOL</em>. Inhaltlich wurden das einige formale Fußnoten in klassischer Mathematik zu <a href="https://www.youtube.com/watch?v=F53aOAW9PBo">scheinbar unmöglichen funktionalen Programmen</a> sowie eine Nacharbeit zu den beiden Haskell-Workshops (<a href="https://curry-club-aux.github.io/haskell-workshop/uebung.pdf">erstes Übungsblatt</a>, <a href="https://curry-club-aux.github.io/haskell-workshop/uebung2.pdf">zweites Übungsblatt</a>) sein. Bei der Gelegenheit haben wir auch das Release von Isabelle2016 gefeiert.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/dIwZSoZlUfw" frameborder="0" allowfullscreen>
+</iframe>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Programm für das elfte Treffen am 25. Februar 2016</title>
+    <link href="http://curry-club-augsburg.de/posts/2016-01-05-elftes-treffen.html" />
+    <id>http://curry-club-augsburg.de/posts/2016-01-05-elftes-treffen.html</id>
+    <published>2016-01-05T00:00:00Z</published>
+    <updated>2016-01-05T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Programm für das elfte Treffen am 25. Februar 2016</h1>
+    <div class="info">
+      Gepostet am  5. Jan 16
+      
+          von Ingo Blechschmidt
+      
+    </div>
+    
+    
+  </header>
+
+  <p>Ingo stellte kombinatorische Spieltheorie mit surrealen Zahlen und Haskell vor.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Xm-CvksUxT0" frameborder="0" allowfullscreen>
+</iframe>
+<p>Cornelius sprach über <em>Verified Firewall Ruleset Analysis</em>. Diesen Vortrag hat er schon auf dem Kongress gehalten.</p>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/fKeGfbY5AyM" frameborder="0" allowfullscreen>
+</iframe>
+<p>Beim nächsten Treffen wird er seinen Vortrag fortsetzen.</p>
+<p>Makarius und Lukas mussten ihre Vorträge leider absagen. Auch Profpatsch’ Kurvvortrag fand nicht statt. Die Vorträge werden beim nächsten oder übernächsten Treffen nachgeholt.</p>
+<!--more-->
+<blockquote>
+<p><strong>Kombinatorische Spieltheorie mit surrealen Zahlen und Haskell</strong></p>
+<p>Rundenbasierte Zwei-Personen-Spiele, die keinerlei Zufallselemente enthalten und nicht mit verborgenen Informationen arbeiten, lassen sich mit einer wunderschönen mathematischen Theorie beschreiben. (“Schach”, nicht “Fußball”.)</p>
+<p>Dabei ordnet man jeder Spielsituation einen gewissen Wert zu. Ist dieser positiv, gewinnt der eine Spieler; ist sie negativ, gewinnt der andere. Wenn eine Situation in zwei unabhängige Teile zerfällt, ist der zugeordnete Wert die Summe der Einzelwerte.</p>
+<p>Gewöhnliche Zahlen genügen dafür aber nicht! Man verwendet stattdessen surreale Zahlen (und eine leichte Variante), eine elegante Neuschöpfung und weitreichende Verallgemeinerung der gewöhnlichen bekannten Zahlen. In den surrealen Zahlen haben Ausdrücke wie “unendlich”, “unendlich plus 1” und “unendlich minus 37” eine sinnvolle Bedeutung und werden in der Spielanalyse anschaulich.</p>
+<p>Die grundlegenden Operationen mit surrealen Zahlen kann man elegant in Haskell implementieren. Mathematische Vorkenntnisse benötigt man dafür nicht, da man alles an grafischen Spielen ablesen kann. Damit können wir dann Gewinnstrategien für diverse Spiele berechnen lassen.</p>
+<p><a href="http://rawgit.com/iblech/vortrag-haskell/master/surreal.pdf">“Folien”</a>, <a href="https://github.com/iblech/vortrag-haskell/blob/master/surreal.hs">Quellcode</a></p>
+</blockquote>
+<blockquote>
+<p><strong>Verified Firewall Ruleset Analysis</strong></p>
+<p>We develop a tool to verify Linux netfilter/iptables firewalls rulesets. Then, we verify the verification tool itself.</p>
+<p>Warning: involves math!</p>
+<p>This talk is also an introduction to interactive theorem proving and programming in Isabelle/HOL. We strongly suggest that audience members have some familiarity with functional programming. A strong mathematical background is NOT required.</p>
+<p>TL;DR: Math is cool again, we now have the tools for “executable math”. Also: iptables!</p>
+<p><a href="http://www.net.in.tum.de/pub/diekmann/32c3.pdf">Folien</a>, <a href="https://github.com/diekmann/Iptables_Semantics">Quellcode</a></p>
+</blockquote>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Zweiter großer Haskell-Workshop des Curry Clubs Augsburg am 20. Dezember 2015</title>
+    <link href="http://curry-club-augsburg.de/posts/2015-12-09-zweiter-workshop.html" />
+    <id>http://curry-club-augsburg.de/posts/2015-12-09-zweiter-workshop.html</id>
+    <published>2015-12-09T00:00:00Z</published>
+    <updated>2015-12-09T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<article>
+  <header>
+    <h1>Zweiter großer Haskell-Workshop des Curry Clubs Augsburg am 20. Dezember 2015</h1>
+    <div class="info">
+      Gepostet am  9. Dez 15
+      
+          von Tim Baumann
+      
+    </div>
+    
+    
+  </header>
+
+  <div class="right">
+<p><a href="/files/haskellworkshop-plakat2.pdf"> <img width="300" src="/files/haskellworkshop-plakat2.png" /> </a></p>
+</div>
+<p>Liebe Freundinnen der Sonne!</p>
+<p>Wir, der Curry Club Augsburg, laden alle Interessierten herzlich zu der Fortsetzung unseres <strong>Haskell-Workshops</strong> ein. Diese findet am <strong>20. Dezember 2015</strong>, einem Sonntag, von 9:00 Uhr bis 17:00 Uhr im <strong>OpenLab Augsburg</strong> statt. Wie beim ersten Mal ist die Teilnahme kostenlos.</p>
+<p>Zielgruppe des Workshops sind alle Teilnehmerinnen des ersten Workshops sowie Einsteigerinnen auf allen Fortschrittslevels.</p>
+<p>Mit den Teilnehmerinnen vom letzten Mal werden wir dort weitermachen, wo wir das letzte Mal aufgehört haben. Während es damals darum ging die Basics zu lernen, wollen wir dieses Mal auf folgende Fragen eingehen:</p>
+<ul>
+<li>Welche verwendungsfertige Funktionen gibt es in der Standardbibliothek und auf <a href="http://hackage.haskell.org/">Hackage</a>?</li>
+<li>Wie strukturiere ich größere Haskell-Programme?</li>
+<li>Wie kann ich sicherstellen, dass mein Code das tut, was er soll?</li>
+<li>Ich programmiere liebend gerne Parser / Webseiten / numerische Simulationen / Benutzeroberflächen / 3D-Spiele / XYZ. Wie mache ich das in Haskell?</li>
+</ul>
+<p>Am Anfang werden wir Monaden wiederholen. Ingo hat dazu auch einen <a href="/posts/2015-10-27-monaden-in-haskell.html">eigenen Blog-Post</a> geschrieben. Ihr tut euch mit Monaden erheblich leichter, wenn ihr diesen Artikel vor dem Workshop liest! Falls ihr das letzte Mal nicht fertig geworden seid, dann ist das kein Problem. Dann könnt ihr einfach das <a href="https://github.com/curry-club-aux/haskell-workshop/raw/gh-pages/uebung.pdf">Übungsblatt</a> weiter bearbeiten und wir helfen euch dabei.</p>
+<p>Für Neueinsteigerinnen wird es eine eigene Gruppe geben. Teilnahmevoraussetzung für Neulinge ist entweder Erfahrung mit einer beliebigen anderen Programmiersprache oder Vertrautheit mit mathematisch/abstraktem Denken.</p>
+<p>Wer vorhat, am Workshop teilzunehmen, kann sich in ein <a href="https://ola.pads.ccc.de/haskell-workshop-2015b">Organisationspad</a> eintragen und dann am 20. Dezember mit dem eigenen Laptop ins OpenLab kommen. Bitte vorab die <a href="https://www.haskell.org/platform/">Haskell Platform</a> installieren, um auf dem Workshop Zeit zu sparen.</p>
+<p>Wir freuen uns auf euch!</p>
+<p>Euer Team vom Curry Club</p>
+<!--more-->
+<blockquote>
+<p>Was ist schneller als C++, prägnanter als Perl, regelmäßiger als Python, flexibler als Ruby, typisierter als C#, robuster als Java und hat absolut nichts mit PHP gemeinsam? Es ist Haskell!</p>
+<p>Haskell ist eine moderne und innovative Programmiersprache, die sich von bekannten imperativen Sprachen in vielerlei Hinsicht deutlich unterscheidet: Ein Haskell-Programm besteht nicht etwa aus einer Abfolge von auszuführenden Anweisungen, sondern aus einer Ansammlung von Deklarationen, deren Reihenfolge keine Rolle spielt. Auch gibt es keine veränderlichen Variablen, und ausgewertet wird nur, was wirklich benötigt wird; unendliche Datenstrukturen sind möglich und sinnvoll.</p>
+<p>Dieses Denkparadigma mag anfangs sehr ungewohnt sein, zieht jedoch eine Reihe von Vorteilen mit sich: Da es keine Nebenwirkungen wie beispielsweise globale Variablen gibt, kann man Code rein lokal verstehen. Damit wird es einfacher, modular Komponenten zusammenzubauen, sich Datenflüsse klarzumachen und Code auf seine Korrektheit hin zu überprüfen. Insbesondere vereinfacht sich die Programmierung mit Threads enorm.</p>
+<p>Ferner ist Haskells starkes statisches Typsystem eine große Hilfe beim Programmieren und verhindert viel mehr Fehler schon während des Kompilierens, als man vielleicht aus anderen Sprachen gewohnt ist. Es gibt das Motto, dass, wenn Haskell-Code erst einmal erfolgreich durchkompiliere, er dann auch schon korrekt sei. Das ist sicherlich übertrieben, hat aber einen erstaunlich wahren Kern.</p>
+<p>Beim Erlernen von Haskell lernt man viele neue Herangehensweisen kennen, die auch in anderen Sprachen nützlich sind; das ist einer der Hauptvorteile an Haskell, der auch dann noch relevant ist, wenn man aus verschiedenen Gründen im täglichen Leben nicht in Haskell programmieren möchte.</p>
+</blockquote>
+</article>
+]]></summary>
 </entry>
 
 </feed>
